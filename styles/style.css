@@ -14,7 +14,7 @@ html {
   block-size: 100%;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: 'Fira Sans Condensed', Verdana, sans-serif;
   font-size: 18px;
   background-color: #1b1919;
 }
@@ -76,7 +76,7 @@ font-size: 75px;
 line-height: 94%;
 text-transform: uppercase;
 color: #fff;
-font-family: Oswald;
+font-family: Oswald, Verdana, sans-serif;
 }
 
 .content__accent {
@@ -149,7 +149,7 @@ font-family: Oswald;
   line-height: 100%;
   text-transform: uppercase;
   margin-bottom: 6px;
-  font-family: Oswald;
+  font-family: Oswald, Verdana, sans-serif;
 }
 
 .content__video-card-description {
@@ -184,7 +184,7 @@ font-family: Oswald;
   border: 1px solid #fff;
   padding: 6px 73.5px;
   color: #fff;
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed, Verdana, sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: normal;
@@ -227,10 +227,11 @@ font-family: Oswald;
   padding: 2.5px 14px 2.5px 0;
   font-weight: 400;
   background: transparent;
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed, Verdana, sans-serif;
   font-size: 18px;
   line-height: normal;
   appearance: none;
+  color: #fff;
 }
 
 .search-form__textfield:active {
@@ -301,8 +302,4 @@ font-family: Oswald;
 .content__card-link:focus-visible {
   outline: 1px solid #fff;
   outline-offset: 1px;
-}
-
-.content__list::-webkit-scrollbar {
-  display: none;
 }
